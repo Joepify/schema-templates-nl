@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.jouwdomein.nl/dienst#service",
+  "name": "Naam van de dienst",
+  "serviceType": "Soort dienst",
+  "url": "https://www.jouwdomein.nl/dienst",
+  "provider": {
+    "@id": "https://www.jouwdomein.nl/#organization"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Nederland"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "minPrice": 499,
+      "priceCurrency": "EUR",
+      "valueAddedTaxIncluded": false
+    }
+  }
+}
