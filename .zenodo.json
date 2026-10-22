@@ -1,0 +1,25 @@
+{
+  "title": "Schema-templates voor Nederlandse bedrijven (JSON-LD)",
+  "upload_type": "software",
+  "description": "JSON-LD structured data templates for Dutch businesses: LocalBusiness with KvK/VAT, Person, Service with price, FAQPage, BlogPosting. Made by Joepify, Rotterdam: https://www.joepify.nl",
+  "creators": [
+    {
+      "name": "Assaidi, Ayoub",
+      "affiliation": "Joepify"
+    }
+  ],
+  "license": "cc0-1.0",
+  "keywords": [
+    "schema.org",
+    "JSON-LD",
+    "structured data",
+    "local business"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.joepify.nl",
+      "relation": "isSupplementedBy",
+      "resource_type": "other"
+    }
+  ]
+}
