@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": [
+    "ProfessionalService",
+    "LocalBusiness"
+  ],
+  "@id": "https://www.jouwdomein.nl/#organization",
+  "name": "Bedrijfsnaam",
+  "url": "https://www.jouwdomein.nl/",
+  "logo": "https://www.jouwdomein.nl/logo.png",
+  "image": "https://www.jouwdomein.nl/og-image.jpg",
+  "description": "Eén zin: wat je doet, voor wie en waar.",
+  "telephone": "+31600000000",
+  "email": "info@jouwdomein.nl",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Straat 1",
+    "postalCode": "1234 AB",
+    "addressLocality": "Plaats",
+    "addressCountry": "NL"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.9,
+    "longitude": 4.5
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "KvK",
+    "value": "12345678"
+  },
+  "vatID": "NL000000000B01",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Plaats"
+    },
+    {
+      "@type": "Country",
+      "name": "Nederland"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/jouwbedrijf",
+    "https://maps.google.com/?cid=JOUW_CID"
+  ],
+  "founder": {
+    "@id": "https://www.jouwdomein.nl/over#persoon"
+  }
+}
