@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.jouwdomein.nl/over#persoon",
+  "name": "Voornaam Achternaam",
+  "jobTitle": "Eigenaar",
+  "url": "https://www.jouwdomein.nl/over",
+  "worksFor": {
+    "@id": "https://www.jouwdomein.nl/#organization"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/jouwprofiel"
+  ],
+  "knowsLanguage": [
+    "nl",
+    "en"
+  ]
+}
